@@ -1,5 +1,5 @@
 # File: telebot_youtube_downloader.py
-# api = "5883942283:AAHBjRNN6enzueo4ffFOx8BxLrvySG26QYM"
+api = "5883942283:AAHBjRNN6enzueo4ffFOx8BxLrvySG26QYM"
 # File: telebot_youtube_downloader.py
 # File: telebot_youtube_downloader.py
 
@@ -13,8 +13,8 @@ import logging
 import json
 import time
 
-API_TOKEN = (token = os.envion.get('token'))
-# API_TOKEN = api
+# API_TOKEN = (token = os.envion.get('token'))
+API_TOKEN = api
 USER_DATA_FILE = 'user_data.json'
 MAX_RETRIES = 3
 RETRY_DELAY = 5  # seconds
