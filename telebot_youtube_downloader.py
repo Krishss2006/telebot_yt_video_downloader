@@ -5,6 +5,7 @@ api = "5883942283:AAHBjRNN6enzueo4ffFOx8BxLrvySG26QYM"
 
 import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
+from keep_alive import keep_alive
 from pytube import YouTube
 import os
 import re
@@ -12,6 +13,7 @@ import logging
 import json
 import time
 
+API_TOKEN = (token = os.envion.get('token'))
 API_TOKEN = api
 USER_DATA_FILE = 'user_data.json'
 MAX_RETRIES = 3
