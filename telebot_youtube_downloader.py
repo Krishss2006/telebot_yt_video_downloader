@@ -12,7 +12,7 @@ import re
 import logging
 import json
 import time
-
+keep_alive()
 # API_TOKEN = (token = os.envion.get('token'))
 API_TOKEN = api
 USER_DATA_FILE = 'user_data.json'
